@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editBusNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Bus Number"
+        android:enabled="false" /> <!-- Keep bus number uneditable -->
+
+    <EditText
+        android:id="@+id/editStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Name" />
+
+    <EditText
+        android:id="@+id/editPickupLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pickup Location" />
+
+    <EditText
+        android:id="@+id/editDropLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Drop Location" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:backgroundTint="@color/DarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes" />
+</LinearLayout>
